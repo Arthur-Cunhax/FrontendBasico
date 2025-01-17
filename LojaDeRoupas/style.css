@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+ul{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.tipo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tipo a{
+    text-decoration: none;
+    color: black;
+}
+.tipo a:hover{
+    color: hotpink;
+}
